@@ -1,0 +1,77 @@
+
+
+
+
+body{
+background-color: black;
+
+}
+
+
+#containerEntete {
+    color: #6c6c6c;
+    font-weight: bold;
+    background-position: 2.5rem; 
+    background-repeat: no-repeat;
+    background-color: black;
+      
+}
+
+ 
+.centered{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container-fluid{
+
+    position: relative;
+    text-align: center;
+}
+
+
+@font-face{
+        font-family: Mapolice;
+        src: url(../font/Thewitcher-jnOj.ttf);
+}
+
+
+h1,h2{
+
+    font-family: Mapolice;
+    color: white;
+  
+}
+
+
+h3{
+    color: #6c6c6c;   
+    font-size: 2rem;
+}
+
+h4{
+
+    font-family: Mapolice;
+    margin: 1rem;
+    color: white;
+
+}
+
+
+hr{
+        
+    background: #353434;
+    height: 1px;
+    border-style: none;
+    margin: 2% 0;
+}
+
+
+i{
+    font-size: 2rem;
+    color: white;
+}
+
